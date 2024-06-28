@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table thead {
+    background-color: brown;
+    color: white;
+
+}
+
+table thead th {
+    padding: 1%;
+    border: 1px solid black;
+}
+
+table tbody tr:nth-child(odd) {
+    background-color: #c8c8c8;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+table tbody tr td {
+    border: 1px solid black;
+}
+
+table tbody tr td del {
+    opacity: 0.4;
+}
+
+table tbody td img {
+    width: 150px;
+    height: 150px;
+}
+
+table tbody tr td button {
+    padding: 3% 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+    /* transition: all 0.3s ease; */
+    transition: 0.3s ease;
+
+}
+
+table tbody tr td button:hover {
+    background-color: white;
+    color: blue;
+    border: 1px solid black;
+}

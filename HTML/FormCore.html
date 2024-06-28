@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F O R M</title>
+</head>
+<body>
+    <h1>ONE,</h1>
+    <!-- Always use "method = post" by default it is "get" which is unsecure. -->
+    <form action="" method="post">
+        <label for="">Username</label>
+        <input type="text" name="username" id="username">
+        <label for="">Password</label>
+        <input type="password" name="password" id="password">
+    </form>
+
+    <h1>TWO,</h1>
+    <!-- Use "fieldset" to set the border & write "legend" to see magic. -->
+    <fieldset>
+        <legend>LogIn</legend>
+        <form action="" method="post">
+            <label for="">Username</label>
+            <input type="text" name="username" id="username">
+            <label for="">Password</label>
+            <input type="password" name="password" id="password">
+        </form>
+    </fieldset>
+
+    <fieldset>
+        <legend><h1>OTHER IMPORTANT TAG</h1></legend>
+        <h1>Colour Picker,</h1>
+        <label for="Color"></label>
+        <input type="color" name="color" id="color">
+    
+        <h1>Range,</h1>
+        <label for="Range"></label>
+        <input type="range" name="range" id="range" min="10" max="20">
+    
+        <h1>Message Box,</h1>
+        <label for="message"></label>
+        <textarea name="Message" id="message"></textarea>
+    
+        <h1>URL,</h1>
+        <label for="url"></label>
+        <input type="url" name="url" id="url">
+    </fieldset>
+    
+</body>
+</html>

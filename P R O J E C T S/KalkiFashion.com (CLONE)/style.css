@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Dosis", sans-serif;
+}
+
+a {
+    color: inherit;
+}
+
+.Center {
+    width: 1260px;
+    margin: 0px auto;
+    background-color: #f6f6f6;
+}
+
+:root {
+    --PrimeColor: #000000 ;
+    --PrePrimeColor: #AA6437 ;
+}
+
+/* - - - - - TopHeader (TopHead) - - - - - */
+.TopHeader {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+}
+
+/* - - - - - Head (MiddleHead) - - - - - */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5%;
+    font-size: 1.3rem;
+    border-bottom: 0.5px solid #c8c8c8;
+}
+
+header .Gender ul {
+    display: flex;
+    gap: 25px;
+}
+
+header .Logo {
+    text-align: center;
+}
+
+header .Icons ul {
+    display: flex;
+    gap: 25px;
+}

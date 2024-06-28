@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: 0px auto;
+}
+
+.Custom-Margin {
+    margin-top: 25%;
+}
+
+/* Important */
+.Playground {
+    height: 300px;
+    width: 300px;
+    background-color: cadetblue;
+    border-radius: 10px;
+    position: relative;
+}
+
+.Football {
+
+    /* No need to undertand these properties of flex skip it.. */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f5f5f5;
+
+    /* Important */
+    height: 50px;
+    width: 50px;
+    background-color: indianred;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+    /* Important */
+    animation-name: NikeBall;
+    animation-duration: 5s;
+    /* animation-timing-function: ease; */
+    animation-iteration-count: infinite;
+    animation-direction: none;
+    animation-fill-mode: both;
+}
+
+/* Not Important */
+.Football i {
+    font-size: 2rem;
+}
+
+/* Important */
+@keyframes NikeBall {
+    0% {
+        background-color: crimson;
+        top: 5px;
+        left: 5px;
+    }
+
+    20% {
+        background-color: darkolivegreen;
+        top: 5px;
+        left: 80%;
+    }
+
+    40% {
+        background-color: darkslategray;
+        top: 80%;
+        left: 80%;
+    }
+
+    60% {
+        background-color: coral;
+        top: 80%;
+        left: 5px;
+    }
+
+    100% {
+        background-color: olive;
+        top: 5px;
+        left: 5px;
+    }
+}

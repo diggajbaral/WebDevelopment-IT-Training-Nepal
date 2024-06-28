@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+}
+
+.Container{
+    display: flex;
+}
+
+.Photos {
+    display: flex;
+    flex-direction: column;
+}
+
+.Front-Back {
+    display: flex;
+}
+
+/* figure {
+    height: 250px;
+    width: 250px;
+}
+
+figure img {
+    height: 100%;
+    width: 100%;
+} */

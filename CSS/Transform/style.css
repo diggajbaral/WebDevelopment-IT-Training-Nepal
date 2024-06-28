@@ -1,0 +1,31 @@
+body {
+    height: 9999px;
+}
+
+.Box {
+    height: 300px;
+    width: 500px;
+    background-color: cadetblue;
+    margin: 0px auto;
+    background-image: url("https://img.freepik.com/free-vector/abstract-geometric-pattern-background_1319-242.jpg?t=st=1716690525~exp=1716694125~hmac=f89828e93175e8f33d96f00a7a534759c5f5c558080e7ba7afa615d0998c1fba&w=740");
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.innerBox {
+    margin: 0px auto;
+    background-color: burlywood;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+    background-image: url("https://img.freepik.com/free-vector/butterfly-logo-colorful-gradient-illustrations_483537-972.jpg?t=st=1716690391~exp=1716693991~hmac=b96849051ea9fedfb4ede3400cd1142054bf49178a38b6382b5b620dc7d4f5e7&w=740");
+    background-size: cover;
+    box-shadow: 1px 3px 5px 1px;
+    transition: all 0.3s ease;
+}
+
+.innerBox:hover {
+    transform: scale(1.3)  translateY(-40%);
+    background-image: url("https://img.freepik.com/free-vector/triangle-pattern-with-connecting-lines-dots_1048-7800.jpg?t=st=1716691294~exp=1716694894~hmac=161a9ba71c596da3de8a282e5626e430df17ee2cebdec14f810ecf5d73e00cd4&w=740");
+}

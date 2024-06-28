@@ -1,0 +1,25 @@
+.Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.Container > div {
+    background-color: #e5e5e5;
+    padding: 30px;
+}
+.Header {
+    grid-column: 1 / 4;
+}
+
+.Aside {
+    grid-row: 2 / 4 ;
+}
+
+.Main {
+    grid-column: 2 / 4;
+}
+
+.footer {
+    grid-column: 1 / 4;
+}

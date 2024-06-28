@@ -1,0 +1,8 @@
+.TextArea {
+    width: 250px;
+    height: 250px;
+    border: 1px solid pink;
+    overflow: auto;
+    /* overflow: hidden;
+    overflow: scroll; */
+}

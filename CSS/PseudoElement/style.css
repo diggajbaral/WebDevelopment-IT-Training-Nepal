@@ -1,0 +1,14 @@
+.Paragraph p::first-letter {
+    font-size: 3rem;
+    color: pink;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Paragraph p::first-line {
+    font-style: italic;
+}
+
+* ::selection {
+    background: red;
+    color: red;
+}

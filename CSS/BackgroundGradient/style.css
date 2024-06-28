@@ -1,0 +1,18 @@
+div {
+    margin: 10px;
+}
+
+.Linear {
+    height: 250px;
+    background-image: linear-gradient(to right, #252525, #c8c8c8);
+}
+
+.Degree {
+    height: 250px;
+    background-image: linear-gradient(45deg, pink, green);
+}
+
+.Radial {
+    height: 250px;
+    background-image: radial-gradient(blue, pink, green);
+}
